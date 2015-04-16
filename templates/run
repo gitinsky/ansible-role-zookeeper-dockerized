@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-JAVA_HOME=/jdk1.8.0_31/
+JAVA_HOME=/jdk1.8.0_40/
 export JAVA_HOME
 exec /zookeeper/bin/zkServer.sh start 1>>/var/log/zookeeper-start.log 2>&1

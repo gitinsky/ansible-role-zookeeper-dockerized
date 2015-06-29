@@ -1,4 +1,4 @@
-FROM gitinsky/oracle-java-8:0.1.2
+FROM gitinsky/oracle-java-8:0.1.4
 MAINTAINER Git In Sky <support@gitinsky.com>
 
 RUN \
@@ -12,3 +12,5 @@ RUN \
   mkdir /etc/service/zookeeper
 
 COPY run /etc/service/zookeeper/run
+#COPY start.sh /start.sh
+#CMD ["/start.sh"]

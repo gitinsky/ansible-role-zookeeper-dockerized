@@ -13,7 +13,7 @@
   docker_image:
     path:  /root/zookeeper-dockerized
     name:  gitinsky/zookeeper
-    tag:   0.1.1
+    tag:   0.1.2
     state: present
   tags:
     - docker
